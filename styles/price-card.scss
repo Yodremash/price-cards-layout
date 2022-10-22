@@ -1,0 +1,136 @@
+.price-card {
+  display: flex;
+  flex-direction: column;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  max-width: 380px;
+  border-radius: 0px;
+  margin-left: 18px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+  &__title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 33px 140px 33px 140px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42.67px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: $color-white;
+    max-width: 100px;
+    max-height: 64px;
+  }
+  &__subtitle {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  &__price-box {
+    max-width: 380px;
+    max-height: 105px;
+    &.basic {
+      background-color: $color-card-basic;
+    }
+    &.business {
+      background-color: $color-card-business;
+    }
+    &.webshop {
+      background-color: $color-card-webshop;
+    }
+  }
+  &__price {
+    max-width: 160px;
+    max-height: 67px;
+    color: $color-white;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 19px 110px;
+  }
+  &__description {
+    margin: 40px 26.51px 40px 26px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18.29px;
+    text-align: center;
+    color: $color-white;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+  }
+  &__list-text {
+    height: 50px;
+    width: 380px;
+    left: 0px;
+    top: 351px;
+    border-radius: 0px;
+    color: $color-white;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    &:nth-child(odd) {
+      background-color: $color-card-odd-list;
+    }
+  }
+  &__button {
+    margin: 39px 113.37px 40px 112px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    padding: 0;
+    min-height: 40px;
+    width: 154.86752319335938px;
+    border-radius: 20px;
+    color: $color-white;
+    &.basic {
+      background-color: $color-card-basic;
+    }
+    &.business {
+      background-color: $color-card-business;
+    }
+    &.webshop {
+      background-color: $color-card-webshop;
+    }
+  }
+}
+
+.price-card__title-badge {
+  position: absolute;
+  width: 104px;
+  height: 104px;
+  transform: translate(276px);
+  overflow: hidden;
+
+  &__text {
+    color: $color-white;
+    position: absolute;
+    background-color: $color-badge;
+    transform: rotate(45deg);
+    height: 25px;
+    width: 147px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    top: 30px;
+    right: -30px;
+  }
+}

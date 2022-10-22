@@ -1,0 +1,33 @@
+@import 'variables.scss';
+@import 'price-card.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $color-background-black;
+  font-family: 'Montserrat', sans-serif;
+}
+.price__tables {
+  margin: 115px 132px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-card__list-img {
+  margin: 18px 22px 19px 22px;
+  display: inline-block;
+  min-width: 15px;
+  min-height: 13px;
+  &.basic {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  }
+  &.business {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  }
+  &.webshop {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  }
+}
