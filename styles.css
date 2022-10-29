@@ -66,6 +66,7 @@
   color: #ffffff;
 }
 .price-card__list {
+  margin: 0;
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -139,11 +140,11 @@
 
 body {
   background: #141b1c;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .price__tables {
-  margin: 115px 132px;
+  padding: 115px 132px;
   display: flex;
   justify-content: center;
   align-items: center;

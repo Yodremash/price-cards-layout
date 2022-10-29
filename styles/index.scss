@@ -21,7 +21,7 @@ body {
   display: inline-block;
   min-width: 15px;
   min-height: 13px;
-  &.basic {
+  &_basic {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
   }
   &.business {
