@@ -102,14 +102,14 @@
   background-color: #2a3438;
 }
 .price-card__button {
-  margin: 39px 113.37px 40px 112px;
+  margin: 39px auto 40px;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
   border: none;
   padding: 0;
   min-height: 40px;
-  width: 154.8675231934px;
+  width: 154px;
   border-radius: 20px;
   color: #ffffff;
 }
