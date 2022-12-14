@@ -38,25 +38,35 @@
   max-width: 380px;
   max-height: 105px;
 }
-.price-card__price-box.basic {
+.price-card__price-box-basic {
   background-color: #5bb189;
 }
-.price-card__price-box.business {
+.price-card__price-box-business {
   background-color: #3a6ba5;
 }
-.price-card__price-box.webshop {
+.price-card__price-box-webshop {
   background-color: #ec632a;
 }
 .price-card__price {
-  max-width: 160px;
-  max-height: 67px;
+  display: flex;
   color: #ffffff;
   font-size: 55px;
   font-weight: 700;
   line-height: 67px;
   letter-spacing: 0px;
   text-align: center;
-  margin: 19px 110px;
+  height: 105px;
+  justify-content: center;
+  align-items: center;
+}
+.price-card__price-basic {
+  background-color: #5bb189;
+}
+.price-card__price-business {
+  background-color: #3a6ba5;
+}
+.price-card__price-webshop {
+  background-color: #ec632a;
 }
 .price-card__description {
   margin: 40px 26.51px 40px 26px;
@@ -89,7 +99,7 @@
   text-align: left;
 }
 .price-card__list-text:nth-child(odd) {
-  background-color: rgba(42, 52, 56, 0.5019607843);
+  background-color: #2a3438;
 }
 .price-card__button {
   margin: 39px 113.37px 40px 112px;
@@ -103,13 +113,13 @@
   border-radius: 20px;
   color: #ffffff;
 }
-.price-card__button.basic {
+.price-card__button-basic {
   background-color: #5bb189;
 }
-.price-card__button.business {
+.price-card__button-business {
   background-color: #3a6ba5;
 }
-.price-card__button.webshop {
+.price-card__button-webshop {
   background-color: #ec632a;
 }
 
@@ -157,13 +167,13 @@ body {
   min-width: 15px;
   min-height: 13px;
 }
-.price-card__list-img_basic {
+.price-card__list-img-basic {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
-.price-card__list-img.business {
+.price-card__list-img-business {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
-.price-card__list-img.webshop {
+.price-card__list-img-webshop {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
 

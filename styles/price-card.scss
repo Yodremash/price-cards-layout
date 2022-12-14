@@ -1,7 +1,7 @@
 .price-card {
   display: flex;
   flex-direction: column;
-  background: #334247;
+  background: $color-price-card-background;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   max-width: 380px;
   max-height: 770px;
@@ -37,26 +37,36 @@
   &__price-box {
     max-width: 380px;
     max-height: 105px;
-    &.basic {
+    &-basic {
       background-color: $color-card-basic;
     }
-    &.business {
+    &-business {
       background-color: $color-card-business;
     }
-    &.webshop {
+    &-webshop {
       background-color: $color-card-webshop;
     }
   }
   &__price {
-    max-width: 160px;
-    max-height: 67px;
+    display: flex;
     color: $color-white;
     font-size: 55px;
     font-weight: 700;
     line-height: 67px;
     letter-spacing: 0px;
     text-align: center;
-    margin: 19px 110px;
+    height: 105px;
+    justify-content: center;
+    align-items: center;
+    &-basic {
+      background-color: $color-card-basic;
+    }
+    &-business {
+      background-color: $color-card-business;
+    }
+    &-webshop {
+      background-color: $color-card-webshop;
+    }
   }
   &__description {
     margin: 40px 26.51px 40px 26px;
@@ -102,13 +112,13 @@
     width: 154.86752319335938px;
     border-radius: 20px;
     color: $color-white;
-    &.basic {
+    &-basic {
       background-color: $color-card-basic;
     }
-    &.business {
+    &-business {
       background-color: $color-card-business;
     }
-    &.webshop {
+    &-webshop {
       background-color: $color-card-webshop;
     }
   }
