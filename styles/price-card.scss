@@ -19,7 +19,7 @@
     margin: 33px 140px 33px 140px;
     font-size: 35px;
     font-weight: 700;
-    line-height: 42.67px;
+    line-height: 42px;
     letter-spacing: 0px;
     text-align: center;
     color: $color-white;
@@ -69,10 +69,10 @@
     }
   }
   &__description {
-    margin: 40px 26.51px 40px 26px;
+    margin: 40px 26px 40px 26px;
     font-size: 15px;
     font-weight: 300;
-    line-height: 18.29px;
+    line-height: 18px;
     text-align: center;
     color: $color-white;
   }
@@ -102,6 +102,7 @@
     }
   }
   &__button {
+    padding: 0;
     height: 40px;
     width: 154px;
     border-radius: 20px;
