@@ -4,6 +4,7 @@
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   max-width: 380px;
+  max-height: 770px;
   border-radius: 0px;
   margin-left: 18px;
 }
@@ -66,11 +67,11 @@
   color: #ffffff;
 }
 .price-card__list {
-  margin: 0;
   display: flex;
   flex-direction: column;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 .price-card__list-text {
   height: 50px;
@@ -139,15 +140,15 @@
 }
 
 body {
-  background: #141b1c;
-  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  background-color: #141b1c;
+  font-family: "Montserrat", sans-serif;
 }
 
 .price__tables {
-  padding: 115px 132px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
 }
 
 .price-card__list-img {
@@ -156,7 +157,7 @@ body {
   min-width: 15px;
   min-height: 13px;
 }
-.price-card__list-img.basic {
+.price-card__list-img_basic {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
 .price-card__list-img.business {

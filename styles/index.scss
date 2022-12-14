@@ -6,14 +6,14 @@
 }
 
 body {
-  background: $color-background-black;
+  display: flex;
+  min-height: 100vh;
+  background-color: $color-background-black;
   font-family: 'Montserrat', sans-serif;
 }
 .price__tables {
-  margin: 115px 132px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
 }
 
 .price-card__list-img {
