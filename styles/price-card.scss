@@ -76,14 +76,14 @@
     text-align: center;
     color: $color-white;
   }
-  &__list {
+  &__options-list {
     display: flex;
     flex-direction: column;
     list-style: none;
     padding: 0;
     margin: 0;
   }
-  &__list-text {
+  &__options-list-text {
     height: 50px;
     width: 380px;
     left: 0px;
